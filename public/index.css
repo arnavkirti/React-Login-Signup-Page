@@ -1,0 +1,38 @@
+*{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    color: white;
+
+}
+.logoBox{
+    display: inline-block;
+    width: 200px;
+    font-size: xx-large;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.navBox{
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.navBox>a{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navBox>a:hover{
+    color: #9756f2;
+}
